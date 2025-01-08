@@ -1,0 +1,40 @@
+/* General styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* Styling for the main heading (h1) */
+h1 {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 20px white;
+}
+
+/* Container for displaying superhero images in a flexible layout */
+.superheroes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* Styling for each superhero image */
+.superheroes img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for superhero images */
+.superheroes img:hover {
+    transform: scale(1.1);
+    border-color: white;
+    box-shadow: 0px 0px 30px white;
+}
+
